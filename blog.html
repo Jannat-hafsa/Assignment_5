@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <nav class="navbar sticky ">
+    <a href="./index.html" class="text-xl font-bold bg-green-300 p-4 text-center rounded-sm">Home</a>
+  <div class="logo flex">
+    <img class="h-10" src="./assets/logo.png" alt="Logo"><p class="text-xl font-bold   rounded-sm">Donation Bangladesh</p>
+  </div>
+  <div class="logo flex">
+    <img class="h-8 w-8" src="./assets/dollar.png" alt="Logo"><span class="text-xl font-bold rounded-sm" id="total-amount"><span>50000</span>BDT</span>
+  </div>
+</nav>
+      
+<div class="m-40">
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" checked="checked" />
+  <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+  <div class="collapse-content">
+    <p>The DOM is a programming interface for web documents. It represents the page so that programs can manipulate its structure, style, and content.</p>
+  </div>
+</div>
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" />
+  <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+  <div class="collapse-content">
+    <p>How do you select an element from the DOM?</p>
+  </div>
+</div>
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" />
+  <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+  <div class="collapse-content">
+    <p>Event delegation is a technique for handling events where a single event listener is added to a parent element, instead of multiple listeners to child elements. It's useful for dynamically added elements.</p>
+  </div>
+</div>
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" />
+  <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+  <div class="collapse-content">
+    <p>You can use methods like `setAttribute`, `getAttribute`, `style`, etc., to manipulate attributes and styles of an element.</p>
+  </div>
+</div>
+</div>
+ 
+
+      
+
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+
+
+        const transitionNumber = document.getElementById('transition-number').innerText;
+        console.log(transitionNumber);
+        
+        
+      </script>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
